@@ -1,6 +1,6 @@
-# JavaScript protocol buffer example
+# JavaScript protocol buffers example
 
-Simple protocol buffer example written in JavaScript.
+Simple protocol buffers example written in JavaScript.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ First you have to generate the JavaScript classes from the `.proto` file:
     protocol_buffers/definitions/person.proto
 ```
 
-Now you can use the generated setters, getters and methods for the serialization. Run `index.js` for the example.
+Now you can use the generated getters, setters and methods for the serialization. Run `index.js` for the example.
 
 ```shell
   node index.js
