@@ -5,4 +5,4 @@ npm-debug.log
 /bower_components
 /node_modules
 /vendor
-/protocol_buffer/messages
+/protocol_buffers/messages/**

@@ -2,7 +2,7 @@
 
 'use strict';
 
-var message = require('./protocol_buffer/messages/person_pb');
+var message = require('./protocol_buffers/messages/person_pb');
 
 var person = new message.Person();
 person.setId(1);
