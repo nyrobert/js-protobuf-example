@@ -12,7 +12,10 @@ Simple protocol buffer example written in JavaScript.
 First you have to generate the JavaScript classes from the `.proto` file:
 
 ```shell
-  protoc --proto_path=protocol_buffer/definitions --js_out=import_style=commonjs,binary:protocol_buffer/messages protocol_buffer/definitions/person.proto
+  protoc \
+    --proto_path=protocol_buffer/definitions \
+    --js_out=import_style=commonjs,binary:protocol_buffer/messages \
+    protocol_buffer/definitions/person.proto
 ```
 
 Now you can use the generated setters, getters and methods for the serialization. Run `index.js` for the example.
