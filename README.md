@@ -18,7 +18,8 @@ First you have to generate the JavaScript classes from the `.proto` file:
     protocol_buffers/definitions/person.proto
 ```
 
-Now you can use the generated getters, setters and methods for the serialization. Run `index.js` for the example.
+Now you can use the generated getters, setters and methods for the serialization. 
+Run `index.js` for the example:
 
 ```shell
   node index.js
