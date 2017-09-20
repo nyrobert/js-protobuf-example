@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  node:
+    image: node:latest
+    volumes:
+      - .:/var/www/html
+
+  js-tools:
+    image: nyrobert/js-tools:latest
+    working_dir: /var/www/html
+    volumes_from:
+      - node

@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+npm-debug.log
+/.idea
+/bower_components
+/node_modules
+/vendor
+/protocol_buffer/messages
