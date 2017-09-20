@@ -4,8 +4,14 @@ Simple protocol buffers example written in JavaScript.
 
 ## Requirements
 
-* Node.js
+* Node.js and npm
 * protoc
+
+## Installation
+
+```shell
+  npm install
+```
 
 ## Usage
 
