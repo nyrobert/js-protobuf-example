@@ -11,15 +11,16 @@ person.setEmail('john.doe@gmail.com');
 
 var homePhone = new message.Person.PhoneNumber();
 homePhone.setNumber('+36 20 111 2222');
-homePhone.setType(message.Person.PhoneNumber.HOME);
+homePhone.setType(message.Person.PhoneType.HOME);
 person.addPhone(homePhone);
 
 var workPhone = new message.Person.PhoneNumber();
 workPhone.setNumber('+36 30 444 5555');
-workPhone.setType(message.Person.PhoneNumber.WORK);
+workPhone.setType(message.Person.PhoneType.WORK);
 person.addPhone(workPhone);
 
 var bytes   = person.serializeBinary();
 var person2 = message.Person.deserializeBinary(bytes);
 
 console.log(person2);
+console.log(person2.getPhoneList());
